@@ -32,13 +32,15 @@ To do this I’m using a wordlist that I have intentionally put 20 incorrect pas
 This ensures that we will see a high quantity of failed logins prior to a successful login in a short amount of time, which is the type of activity we would like to build a detection for.
 
 <br />
-<img src="https://i.imgur.com/Xr0zwfZ.png" height="80%" width="80%"
+
 <br />
 <br />
 
 Here we can see that crowbar was able to successfully sign in to an account, which means our next step is to go look at the logs from this successful login as well as the previous failed attempts.
 <br />
-
+![ ](main/1RunningCrowbar.png)
+<br />
+<br />
 To do this we will pivot to Splunk.
 <br />
 
