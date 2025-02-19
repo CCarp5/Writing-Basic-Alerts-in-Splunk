@@ -174,7 +174,7 @@ Now we must join this search that is only going to show failed login attempts wi
 
 There is a lot going on in this portion of the search, so we're going to break it down individually.
 <br />
-•	Runs a subsearch to look for 4624 (successful logins).
+•	join type=inner runs a subsearch to look for 4624 (successful logins).
 <br />
 •	stats earliest(_time) as success_time by Account_Name → Finds the first successful login per user.
 <br />
