@@ -48,7 +48,6 @@ Because we know we recently performed this activity, we can go ahead and set our
 Note: In this setup I only have one index running in Splunk, “endpoint”
 
 <br />
-<img src="https://i.imgur.com/KjN0uqa.png" height="80%" width="80%"
 <br />
 <br />
 
